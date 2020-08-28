@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5FD20B2E24F94ECC0058DFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD20B2C24F94ECC0058DFE1 /* Main.storyboard */; };
 		5FD20B3024F94ECE0058DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD20B2F24F94ECE0058DFE1 /* Assets.xcassets */; };
 		5FD20B3324F94ECE0058DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD20B3124F94ECE0058DFE1 /* LaunchScreen.storyboard */; };
+		5FD20B3C24F9562A0058DFE1 /* FadingEdgeScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 5FD20B3B24F9562A0058DFE1 /* FadingEdgeScrollView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD20B3C24F9562A0058DFE1 /* FadingEdgeScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = SampleFadingEdgeScrollView;
+			packageProductDependencies = (
+				5FD20B3B24F9562A0058DFE1 /* FadingEdgeScrollView */,
+			);
 			productName = SampleFadingEdgeScrollView;
 			productReference = 5FD20B2324F94ECC0058DFE1 /* SampleFadingEdgeScrollView.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 5FD20B1A24F94ECC0058DFE1;
+			packageReferences = (
+				5FD20B3A24F9562A0058DFE1 /* XCRemoteSwiftPackageReference "FadingEdgeScrollView" */,
+			);
 			productRefGroup = 5FD20B2424F94ECC0058DFE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FD20B3A24F9562A0058DFE1 /* XCRemoteSwiftPackageReference "FadingEdgeScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yokoyamark/FadingEdgeScrollView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FD20B3B24F9562A0058DFE1 /* FadingEdgeScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FD20B3A24F9562A0058DFE1 /* XCRemoteSwiftPackageReference "FadingEdgeScrollView" */;
+			productName = FadingEdgeScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FD20B1B24F94ECC0058DFE1 /* Project object */;
 }

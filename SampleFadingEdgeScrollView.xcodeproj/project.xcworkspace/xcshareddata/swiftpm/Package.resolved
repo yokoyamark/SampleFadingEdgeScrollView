@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FadingEdgeScrollView",
+        "repositoryURL": "https://github.com/yokoyamark/FadingEdgeScrollView",
+        "state": {
+          "branch": null,
+          "revision": "e8f4dd8152e2e7f7fd835f0f2f0adddb9f9dabf5",
+          "version": "0.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
